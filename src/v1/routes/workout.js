@@ -8,9 +8,7 @@ router.get('/:workoutId', (req,res) => {
     res.send('Get an existing workout');
 })
 
-router.post('/', (req,res) => {
-    res.send('Get a new workout')
-})
+router.post('/',workoutController.createNewWorkout);
 
 router.patch('/:workout:Id', (req,res) => {
     res.send('Update an existing workout')

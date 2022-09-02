@@ -1,68 +1,128 @@
 {
-    "workouts": [
-      {
-        "id": "61dbae02-c147-4e28-863c-db7bd402b2d6",
-        "name": "Tommy V",
-        "mode": "For Time",
-        "equipment": [
-          "barbell",
-          "rope"
-        ],
-        "exercises": [
-          "21 thrusters",
-          "12 rope climbs, 15 ft",
-          "15 thrusters",
-          "9 rope climbs, 15 ft",
-          "9 thrusters",
-          "6 rope climbs, 15 ft"
-        ],
-        "createdAt": "4/20/2022, 2:21:56 PM",
-        "updatedAt": "4/20/2022, 2:21:56 PM",
-        "trainerTips": [
-          "Split the 21 thrusters as needed",
-          "Try to do the 9 and 6 thrusters unbroken",
-          "RX Weights: 115lb/75lb"
-        ]
-      },
-      {
-        "id": "4a3d9aaa-608c-49a7-a004-66305ad4ab50",
-        "name": "Dead Push-Ups",
-        "mode": "AMRAP 10",
-        "equipment": [
-          "barbell"
-        ],
-        "exercises": [
-          "15 deadlifts",
-          "15 hand-release push-ups"
-        ],
-        "createdAt": "1/25/2022, 1:15:44 PM",
-        "updatedAt": "3/10/2022, 8:21:56 AM",
-        "trainerTips": [
-          "Deadlifts are meant to be light and fast",
-          "Try to aim for unbroken sets",
-          "RX Weights: 135lb/95lb"
-        ]
-      },
-      {
-        "id": "d8be2362-7b68-4ea4-a1f6-03f8bc4eede7",
-        "name": "Heavy DT",
-        "mode": "5 Rounds For Time",
-        "equipment": [
-          "barbell",
-          "rope"
-        ],
-        "exercises": [
-          "12 deadlifts",
-          "9 hang power cleans",
-          "6 push jerks"
-        ],
-        "createdAt": "11/20/2021, 5:39:07 PM",
-        "updatedAt": "11/20/2021, 5:39:07 PM",
-        "trainerTips": [
-          "Aim for unbroken push jerks",
-          "The first three rounds might feel terrible, but stick to it",
-          "RX Weights: 205lb/145lb"
-        ]
-      }
-    ]
-  }
+  "workouts": [
+    {
+      "id": "61dbae02-c147-4e28-863c-db7bd402b2d6",
+      "name": "Tommy V",
+      "mode": "For Time",
+      "equipment": [
+        "barbell",
+        "rope"
+      ],
+      "exercises": [
+        "21 thrusters",
+        "12 rope climbs, 15 ft",
+        "15 thrusters",
+        "9 rope climbs, 15 ft",
+        "9 thrusters",
+        "6 rope climbs, 15 ft"
+      ],
+      "createdAt": "4/20/2022, 2:21:56 PM",
+      "updatedAt": "4/20/2022, 2:21:56 PM",
+      "trainerTips": [
+        "Split the 21 thrusters as needed",
+        "Try to do the 9 and 6 thrusters unbroken",
+        "RX Weights: 115lb/75lb"
+      ]
+    },
+    {
+      "id": "4a3d9aaa-608c-49a7-a004-66305ad4ab50",
+      "name": "Dead Push-Ups",
+      "mode": "AMRAP 10",
+      "equipment": [
+        "barbell"
+      ],
+      "exercises": [
+        "15 deadlifts",
+        "15 hand-release push-ups"
+      ],
+      "createdAt": "1/25/2022, 1:15:44 PM",
+      "updatedAt": "3/10/2022, 8:21:56 AM",
+      "trainerTips": [
+        "Deadlifts are meant to be light and fast",
+        "Try to aim for unbroken sets",
+        "RX Weights: 135lb/95lb"
+      ]
+    },
+    {
+      "id": "d8be2362-7b68-4ea4-a1f6-03f8bc4eede7",
+      "name": "Heavy DT",
+      "mode": "5 Rounds For Time",
+      "equipment": [
+        "barbell",
+        "rope"
+      ],
+      "exercises": [
+        "12 deadlifts",
+        "9 hang power cleans",
+        "6 push jerks"
+      ],
+      "createdAt": "11/20/2021, 5:39:07 PM",
+      "updatedAt": "11/20/2021, 5:39:07 PM",
+      "trainerTips": [
+        "Aim for unbroken push jerks",
+        "The first three rounds might feel terrible, but stick to it",
+        "RX Weights: 205lb/145lb"
+      ]
+    },
+    {
+      "name": "olalekan",
+      "mode": "Cool",
+      "equipment": [
+        "cane",
+        "blue"
+      ],
+      "exercises": [
+        "name",
+        "time"
+      ],
+      "trainerTips": [
+        "coom",
+        "rubbish"
+      ],
+      "id": "7a1e056a-6883-4b69-b8b1-78ae4403c487",
+      "createdAt": "9/2/2022, 1:02:03 PM",
+      "updatedAt": "9/2/2022, 1:02:03 PM"
+    },
+    {
+      "name": "Jumping (Not) Made Easy",
+      "mode": "AMRAP 12",
+      "equipment": [
+        "jump rope"
+      ],
+      "exercises": [
+        "10 burpees",
+        "25 double-unders"
+      ],
+      "trainerTips": [
+        "Scale to do 50 single-unders, if double-unders are too difficult"
+      ],
+      "id": "8156f668-74e7-4e6e-bf78-cf6d41282d4d",
+      "createdAt": "9/2/2022, 2:30:16 PM",
+      "updatedAt": "9/2/2022, 2:30:17 PM"
+    },
+    {
+      "name": "Samuel",
+      "mode": "AMRAP ",
+      "equipment": "jump rope",
+      "exercises": "10 burpees",
+      "trainerTips": [
+        "Scale to do 50 single-unders, if double-unders a"
+      ],
+      "id": "c351200b-11ad-4662-9390-b74f2a14aefc",
+      "createdAt": "9/2/2022, 5:52:17 PM",
+      "updatedAt": "9/2/2022, 5:52:17 PM"
+    },
+    {
+      "name": "Samue",
+      "mode": "AMRA ",
+      "equipment": "jump rop",
+      "exercises": "10 burpes",
+      "trainerTips": [
+        "Scale o do 50 single-unders, if double-unders a"
+      ],
+      "id": "c72d9cbd-6b5c-4357-865f-753bc6da24fa",
+      "createdAt": "9/2/2022, 5:58:55 PM",
+      "updatedAt": "9/2/2022, 5:58:55 PM"
+    }
+  ]
+}
