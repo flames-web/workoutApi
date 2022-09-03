@@ -1,9 +1,9 @@
 const {v4 : uuid} = require('uuid');
 const Workout = require('../database/Workout')
 
-module.exports.getAllWorkouts = () => {
+module.exports.getAllWorkouts = (filterParams) => {
     try {
-        const allWorkouts = Workout.getAllWorkouts();
+        const allWorkouts = Workout.getAllWorkouts(filterParams);
         return allWorkouts;
     } catch (error) {
         throw error;
@@ -45,7 +45,7 @@ module.exports.updateOneWorkout = (workoutId,changes) => {
 
 module.exports.deleteWorkout = (workoutId) => {
     try {
-        const deletedWorkout = Workout.deleteOneWorkout(workoutId);
+        Workout.deleteOneWorkout(workoutId);
     } catch (error) {
         throw error;
     }

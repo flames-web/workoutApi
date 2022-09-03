@@ -1,9 +1,12 @@
 const workoutService = require('../services/workout');
 
+
+
 module.exports.getAllWorkouts = (req,res) => {
+    const {mode} = req.query
     try {
-        const allWorkouts = workoutService.getAllWorkouts();
-        res.send({status:'OK',data : allWorkouts});
+        const allWorkouts = workoutService.getAllWorkouts({mode});
+        res.send({status:'OK',data:allWorkouts});
     } catch (error) {
         res.status(error?.status || 500)
            .send({status:'Failed',data:{error: error?.message || error}})
@@ -11,9 +14,10 @@ module.exports.getAllWorkouts = (req,res) => {
 }
 
 module.exports.getOneWorkout = (req,res) => {
+    const {workoutId} = req.params;
     try {
-        const workout = workoutService.getOneWorkout()
-        res.send({status:'OK',data:workout});
+        const workout = workoutService.getOneWorkout(workoutId)
+        res.send({status:'OK',data : workout});
     } catch (error) {
         res.status(error?.status || 500)
            .send({status:'Failed',data:{error: error?.message || error}})
